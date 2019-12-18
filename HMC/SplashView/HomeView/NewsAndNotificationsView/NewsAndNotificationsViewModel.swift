@@ -8,6 +8,6 @@
 
 import Foundation
 
-class News_NotificationsViewModel {
+class NewsAndNotificationsViewModel {
     
 }

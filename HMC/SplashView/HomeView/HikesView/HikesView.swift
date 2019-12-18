@@ -10,11 +10,12 @@ import SwiftUI
 
 struct HikesView: View {
     
-       var viewModel: HikesViewModel?
-       init() {
-           viewModel = HikesViewModel()
-       }
-       
+    var viewModel: HikesViewModel?
+    
+    init() {
+        viewModel = HikesViewModel()
+    }
+    
     var body: some View {
         Text("HikesView")
     }

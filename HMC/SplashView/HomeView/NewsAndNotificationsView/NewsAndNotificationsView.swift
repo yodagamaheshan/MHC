@@ -8,13 +8,14 @@
 
 import SwiftUI
 
-struct News_NotificationsView: View {
+struct NewsAndNotificationsView: View {
     
-       var viewModel: News_NotificationsViewModel?
-       init() {
-           viewModel = News_NotificationsViewModel()
-       }
-     
+    var viewModel: NewsAndNotificationsViewModel?
+    
+    init() {
+        viewModel = NewsAndNotificationsViewModel()
+    }
+    
     var body: some View {
         Text("News_NotificationsView")
     }
@@ -22,6 +23,6 @@ struct News_NotificationsView: View {
 
 struct News_NotificationsView_Previews: PreviewProvider {
     static var previews: some View {
-        News_NotificationsView()
+        NewsAndNotificationsView()
     }
 }

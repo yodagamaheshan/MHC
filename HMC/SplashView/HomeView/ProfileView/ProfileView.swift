@@ -10,11 +10,12 @@ import SwiftUI
 
 struct ProfileView: View {
     
-       var viewModel: ProfileViewModel?
-       init() {
-           viewModel = ProfileViewModel()
-       }
-     
+    var viewModel: ProfileViewModel?
+    
+    init() {
+        viewModel = ProfileViewModel()
+    }
+    
     var body: some View {
         Text("ProfileView")
     }

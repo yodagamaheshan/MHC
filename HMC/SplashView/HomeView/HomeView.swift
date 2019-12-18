@@ -16,7 +16,13 @@ struct HomeView: View {
     }
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        TabView{
+            
+            HikesView().tabItem { Text("Hike") }
+            NewsAndNotificationsView().tabItem { Text("Notification") }
+            ProfileView().tabItem { Text("Profile")}
+            
+        }.edgesIgnoringSafeArea(.all)
     }
 }
 
