@@ -34,10 +34,10 @@ struct ProfileView: View {
                             .bold()
                         Text("Yodagama")
                             .font(.system(size: 45, weight: .light, design: .rounded))
-                            .offset(x: 10, y: 0)
+                            .offset(x: 10, y: -5)
                     }
                     .foregroundColor(.white)
-                    .shadow(radius: 8)
+                    .shadow(radius: 2)
                     .offset(x: 5, y: 0)
                     Spacer()
                 }
