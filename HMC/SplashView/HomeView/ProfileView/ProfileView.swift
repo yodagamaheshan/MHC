@@ -17,7 +17,36 @@ struct ProfileView: View {
     }
     
     var body: some View {
-        Text("ProfileView")
+        
+        VStack {
+            ZStack {
+                Image("profile_picture")
+                    .resizable()
+                    .frame(height: 250, alignment: .top)
+                    .edgesIgnoringSafeArea(.all)
+                    .scaledToFit()
+                
+                HStack {
+                   
+                    VStack(alignment: .leading) {
+                        Text("Heshan")
+                            .font(.system(size: 45))
+                            .bold()
+                        Text("Yodagama")
+                            .font(.system(size: 45, weight: .light, design: .rounded))
+                            .offset(x: 10, y: 0)
+                    }
+                    .foregroundColor(.white)
+                    .shadow(radius: 8)
+                    .offset(x: 5, y: 0)
+                    Spacer()
+                }
+                
+                
+                
+            }
+            Spacer()
+        }
     }
 }
 
