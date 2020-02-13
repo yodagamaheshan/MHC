@@ -25,6 +25,11 @@
 		569D4693237D13B200C1EA29 /* HikesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569D4692237D13B200C1EA29 /* HikesView.swift */; };
 		569D4695237D13C200C1EA29 /* HikesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569D4694237D13C200C1EA29 /* HikesViewModel.swift */; };
 		56CAC7D123897DE100FEF8D7 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CAC7D023897DE100FEF8D7 /* CircleImage.swift */; };
+		56D000EE23F5919C00E3B9C0 /* VoteForHikeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D000ED23F5919C00E3B9C0 /* VoteForHikeRow.swift */; };
+		56D000F423F59AAF00E3B9C0 /* Segoe UI Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56D000F023F59AAF00E3B9C0 /* Segoe UI Bold.ttf */; };
+		56D000F523F59AAF00E3B9C0 /* Segoe UI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56D000F123F59AAF00E3B9C0 /* Segoe UI.ttf */; };
+		56D000F623F59AAF00E3B9C0 /* Segoe UI Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56D000F223F59AAF00E3B9C0 /* Segoe UI Italic.ttf */; };
+		56D000F723F59AAF00E3B9C0 /* Segoe UI Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56D000F323F59AAF00E3B9C0 /* Segoe UI Bold Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +74,11 @@
 		569D4692237D13B200C1EA29 /* HikesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikesView.swift; sourceTree = "<group>"; };
 		569D4694237D13C200C1EA29 /* HikesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikesViewModel.swift; sourceTree = "<group>"; };
 		56CAC7D023897DE100FEF8D7 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		56D000ED23F5919C00E3B9C0 /* VoteForHikeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteForHikeRow.swift; sourceTree = "<group>"; };
+		56D000F023F59AAF00E3B9C0 /* Segoe UI Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe UI Bold.ttf"; sourceTree = "<group>"; };
+		56D000F123F59AAF00E3B9C0 /* Segoe UI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe UI.ttf"; sourceTree = "<group>"; };
+		56D000F223F59AAF00E3B9C0 /* Segoe UI Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe UI Italic.ttf"; sourceTree = "<group>"; };
+		56D000F323F59AAF00E3B9C0 /* Segoe UI Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe UI Bold Italic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +132,7 @@
 				569D464F237D0E7700C1EA29 /* AppDelegate.swift */,
 				569D4651237D0E7700C1EA29 /* SceneDelegate.swift */,
 				569D467F237D11B200C1EA29 /* SplashView */,
+				56D000EF23F59A6E00E3B9C0 /* CustomFonts */,
 				569D4655237D0E7A00C1EA29 /* Assets.xcassets */,
 				569D465A237D0E7A00C1EA29 /* LaunchScreen.storyboard */,
 				569D465D237D0E7A00C1EA29 /* Info.plist */,
@@ -169,6 +180,7 @@
 		569D4682237D11FE00C1EA29 /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
+				56D000EC23F5916900E3B9C0 /* VoteForHikeRow */,
 				569D4683237D122900C1EA29 /* HomeView.swift */,
 				569D4685237D124600C1EA29 /* HomeViewModel.swift */,
 				569D4691237D139100C1EA29 /* HikesView */,
@@ -212,6 +224,25 @@
 				56CAC7D023897DE100FEF8D7 /* CircleImage.swift */,
 			);
 			name = ExtraViews;
+			sourceTree = "<group>";
+		};
+		56D000EC23F5916900E3B9C0 /* VoteForHikeRow */ = {
+			isa = PBXGroup;
+			children = (
+				56D000ED23F5919C00E3B9C0 /* VoteForHikeRow.swift */,
+			);
+			path = VoteForHikeRow;
+			sourceTree = "<group>";
+		};
+		56D000EF23F59A6E00E3B9C0 /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				56D000F323F59AAF00E3B9C0 /* Segoe UI Bold Italic.ttf */,
+				56D000F023F59AAF00E3B9C0 /* Segoe UI Bold.ttf */,
+				56D000F223F59AAF00E3B9C0 /* Segoe UI Italic.ttf */,
+				56D000F123F59AAF00E3B9C0 /* Segoe UI.ttf */,
+			);
+			path = CustomFonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,7 +351,11 @@
 			files = (
 				569D465C237D0E7A00C1EA29 /* LaunchScreen.storyboard in Resources */,
 				569D4659237D0E7A00C1EA29 /* Preview Assets.xcassets in Resources */,
+				56D000F623F59AAF00E3B9C0 /* Segoe UI Italic.ttf in Resources */,
+				56D000F523F59AAF00E3B9C0 /* Segoe UI.ttf in Resources */,
 				569D4656237D0E7A00C1EA29 /* Assets.xcassets in Resources */,
+				56D000F723F59AAF00E3B9C0 /* Segoe UI Bold Italic.ttf in Resources */,
+				56D000F423F59AAF00E3B9C0 /* Segoe UI Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +393,7 @@
 				569D4693237D13B200C1EA29 /* HikesView.swift in Sources */,
 				569D468B237D131700C1EA29 /* ProfileViewModel.swift in Sources */,
 				569D4681237D11E600C1EA29 /* SplashViewModel.swift in Sources */,
+				56D000EE23F5919C00E3B9C0 /* VoteForHikeRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
