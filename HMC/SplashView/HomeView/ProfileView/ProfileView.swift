@@ -30,10 +30,9 @@ struct ProfileView: View {
                    
                     VStack(alignment: .leading) {
                         Text("Heshan")
-                            .font(.system(size: 45))
-                            .bold()
+                            .font(.custom("Segoe UI Bold", size: 45))
                         Text("Yodagama")
-                            .font(.system(size: 45, weight: .light, design: .rounded))
+                            .font(.custom("Segoe UI", size: 45))
                             .offset(x: 10, y: -5)
                     }
                     .foregroundColor(.white)
