@@ -56,5 +56,12 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Segoe UI Bold Italic.ttf</string>
+		<string>Segoe UI Bold.ttf</string>
+		<string>Segoe UI Italic.ttf</string>
+		<string>Segoe UI.ttf</string>
+	</array>
 </dict>
 </plist>
