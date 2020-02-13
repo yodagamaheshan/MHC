@@ -25,11 +25,11 @@
 		569D4693237D13B200C1EA29 /* HikesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569D4692237D13B200C1EA29 /* HikesView.swift */; };
 		569D4695237D13C200C1EA29 /* HikesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569D4694237D13C200C1EA29 /* HikesViewModel.swift */; };
 		56CAC7D123897DE100FEF8D7 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CAC7D023897DE100FEF8D7 /* CircleImage.swift */; };
-		56D000EE23F5919C00E3B9C0 /* VoteForHikeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D000ED23F5919C00E3B9C0 /* VoteForHikeRow.swift */; };
 		56D000F423F59AAF00E3B9C0 /* Segoe UI Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56D000F023F59AAF00E3B9C0 /* Segoe UI Bold.ttf */; };
 		56D000F523F59AAF00E3B9C0 /* Segoe UI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56D000F123F59AAF00E3B9C0 /* Segoe UI.ttf */; };
 		56D000F623F59AAF00E3B9C0 /* Segoe UI Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56D000F223F59AAF00E3B9C0 /* Segoe UI Italic.ttf */; };
 		56D000F723F59AAF00E3B9C0 /* Segoe UI Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56D000F323F59AAF00E3B9C0 /* Segoe UI Bold Italic.ttf */; };
+		56D000FE23F5A13700E3B9C0 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D000FD23F5A13700E3B9C0 /* FontExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +79,7 @@
 		56D000F123F59AAF00E3B9C0 /* Segoe UI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe UI.ttf"; sourceTree = "<group>"; };
 		56D000F223F59AAF00E3B9C0 /* Segoe UI Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe UI Italic.ttf"; sourceTree = "<group>"; };
 		56D000F323F59AAF00E3B9C0 /* Segoe UI Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe UI Bold Italic.ttf"; sourceTree = "<group>"; };
+		56D000FD23F5A13700E3B9C0 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +134,7 @@
 				569D4651237D0E7700C1EA29 /* SceneDelegate.swift */,
 				569D467F237D11B200C1EA29 /* SplashView */,
 				56D000EF23F59A6E00E3B9C0 /* CustomFonts */,
+				56D000FC23F5A0FE00E3B9C0 /* Extensions */,
 				569D4655237D0E7A00C1EA29 /* Assets.xcassets */,
 				569D465A237D0E7A00C1EA29 /* LaunchScreen.storyboard */,
 				569D465D237D0E7A00C1EA29 /* Info.plist */,
@@ -243,6 +245,14 @@
 				56D000F123F59AAF00E3B9C0 /* Segoe UI.ttf */,
 			);
 			path = CustomFonts;
+			sourceTree = "<group>";
+		};
+		56D000FC23F5A0FE00E3B9C0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				56D000FD23F5A13700E3B9C0 /* FontExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,6 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56D000FE23F5A13700E3B9C0 /* FontExtension.swift in Sources */,
 				569D4650237D0E7700C1EA29 /* AppDelegate.swift in Sources */,
 				569D4686237D124600C1EA29 /* HomeViewModel.swift in Sources */,
 				569D4652237D0E7700C1EA29 /* SceneDelegate.swift in Sources */,
@@ -393,7 +404,6 @@
 				569D4693237D13B200C1EA29 /* HikesView.swift in Sources */,
 				569D468B237D131700C1EA29 /* ProfileViewModel.swift in Sources */,
 				569D4681237D11E600C1EA29 /* SplashViewModel.swift in Sources */,
-				56D000EE23F5919C00E3B9C0 /* VoteForHikeRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
