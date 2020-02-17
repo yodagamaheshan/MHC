@@ -30,6 +30,7 @@
 		56D000F623F59AAF00E3B9C0 /* Segoe UI Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56D000F223F59AAF00E3B9C0 /* Segoe UI Italic.ttf */; };
 		56D000F723F59AAF00E3B9C0 /* Segoe UI Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56D000F323F59AAF00E3B9C0 /* Segoe UI Bold Italic.ttf */; };
 		56D000FE23F5A13700E3B9C0 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56D000FD23F5A13700E3B9C0 /* FontExtension.swift */; };
+		56E514A923FAF63C00EC6318 /* FormRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E514A823FAF63C00EC6318 /* FormRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		56D000F223F59AAF00E3B9C0 /* Segoe UI Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe UI Italic.ttf"; sourceTree = "<group>"; };
 		56D000F323F59AAF00E3B9C0 /* Segoe UI Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Segoe UI Bold Italic.ttf"; sourceTree = "<group>"; };
 		56D000FD23F5A13700E3B9C0 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
+		56E514A823FAF63C00EC6318 /* FormRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 		569D4682237D11FE00C1EA29 /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
+				56E514A723FAF61600EC6318 /* FormRow */,
 				56D000EC23F5916900E3B9C0 /* VoteForHikeRow */,
 				569D4683237D122900C1EA29 /* HomeView.swift */,
 				569D4685237D124600C1EA29 /* HomeViewModel.swift */,
@@ -253,6 +256,14 @@
 				56D000FD23F5A13700E3B9C0 /* FontExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		56E514A723FAF61600EC6318 /* FormRow */ = {
+			isa = PBXGroup;
+			children = (
+				56E514A823FAF63C00EC6318 /* FormRow.swift */,
+			);
+			path = FormRow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -399,6 +410,7 @@
 				569D468E237D136300C1EA29 /* NewsAndNotificationsView.swift in Sources */,
 				569D4684237D122900C1EA29 /* HomeView.swift in Sources */,
 				569D4689237D12A400C1EA29 /* ProfileView.swift in Sources */,
+				56E514A923FAF63C00EC6318 /* FormRow.swift in Sources */,
 				569D4695237D13C200C1EA29 /* HikesViewModel.swift in Sources */,
 				569D4690237D137A00C1EA29 /* NewsAndNotificationsViewModel.swift in Sources */,
 				569D4693237D13B200C1EA29 /* HikesView.swift in Sources */,
